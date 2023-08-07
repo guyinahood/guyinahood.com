@@ -1,5 +1,5 @@
-baseURL: /
-title: Goldydocs
+baseURL: 'https://guyinahood.com'
+title: Guy in a Hood
 contentDir: content/en
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -24,16 +24,16 @@ params:
     pygmentsUseClasses: false
     pygmentsUseClassic: false
     pygmentsStyle: tango
-  copyright: The Docsy Authors
+  copyright: Guy in a Hood.
   privacy_policy: 'https://policies.google.com/privacy'
   version_menu: Releases
   archived_version: false
   version: '0.0'
-  url_latest_version: 'https://example.com'
-  github_repo: 'https://github.com/google/docsy-example'
-  github_project_repo: 'https://github.com/google/docsy'
+  url_latest_version: 'https://guyinahood.com'
+  github_repo: 'https://github.com/guyinahood/guyinahood.com'
+  #github_project_repo: 'https://github.com/google/docsy'
   github_branch: main
-  gcs_engine_id: d72aa9b2712488cc3
+  gcs_engine_id: 25f74f585ca4844ec
   algolia_docsearch: false
   offlineSearch: false
   prism_syntax_highlighting: false
@@ -48,11 +48,11 @@ params:
       enable: true
       'yes': >-
         Glad to hear it! Please <a
-        href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we
+        href="https://github.com/guyinahood/guyinahood.com/issues/new">tell us how we
         can improve</a>.
       'no': >-
         Sorry to hear that. Please <a
-        href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we
+        href="https://github.com/guyinahood/guyinahood.com/issues/new">tell us how we
         can improve</a>.
     readingtime:
       enable: false
@@ -63,16 +63,16 @@ params:
         icon: fa fa-envelope
         desc: Discussion and help from your fellow users
       - name: Twitter
-        url: 'https://example.org/twitter'
+        url: 'https://twitter.com/guyinahood'
         icon: fab fa-twitter
-        desc: Follow us on Twitter to get the latest news!
+        desc: Follow me on Twitter to get the latest news!
       - name: Stack Overflow
         url: 'https://example.org/stack'
         icon: fab fa-stack-overflow
         desc: Practical questions and curated answers
     developer:
       - name: GitHub
-        url: 'https://github.com/google/docsy'
+        url: 'https://github.com/guyinahood/guyinahood.com'
         icon: fab fa-github
         desc: Development takes place here!
       - name: Slack
@@ -97,24 +97,8 @@ languages:
     languageName: English
     weight: 1
     params:
-      title: Goldydocs
-      description: A Docsy example site
-  'no':
-    languageName: Norsk
-    contentDir: content/no
-    params:
-      title: Goldydocs
-      description: Docsy er operativsystem for skyen
-      time_format_default: 02.01.2006
-      time_format_blog: 02.01.2006
-  fa:
-    languageName: فارسی
-    contentDir: content/fa
-    params:
-      title: اسناد گلدی
-      description: یک نمونه برای پوسته داکسی
-      time_format_default: 2006.01.02
-      time_format_blog: 2006.01.02
+      title: Guy in a Hood
+      description: Embarking on an epic cybersecurity adventure from nothing to bugbounty hunter. Unveiling my journey, one step at a time. If I can do it, so can you.
 markup:
   goldmark:
     parser:
